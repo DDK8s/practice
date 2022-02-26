@@ -18,6 +18,5 @@ func TestAct(t *testing.T) {
 		t.Errorf("Incorrect result. Expected %d, got %d", expected, result)
 		return
 	}
-	fmt.Println("Correct result")
 }
 
