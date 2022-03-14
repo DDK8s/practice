@@ -7,13 +7,14 @@ type element struct {
 	next *element
 }
 
+
 type sinList struct {
 	len  int
 	head *element
 }
 
 func main() {
-
+	
 	numbers := [6]int{8, 9, 7, 1, 2, 3}
 	Act(numbers)
 }
