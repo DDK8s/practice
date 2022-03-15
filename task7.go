@@ -7,7 +7,6 @@ type element struct {
 	next *element
 }
 
-
 type sinList struct {
 	len  int
 	head *element
